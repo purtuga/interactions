@@ -1,0 +1,1 @@
+module.exports = require("@purtuga/project-base/configs/eslint.config");
