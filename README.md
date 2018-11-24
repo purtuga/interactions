@@ -17,7 +17,9 @@ const resizableDiv = new Resizable({
 });
 ```
 
+## Interactions
 
+-   [Resizable]("./src/Resizable/README.md")
 
 ## License
 

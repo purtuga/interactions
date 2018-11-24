@@ -1,0 +1,64 @@
+.handle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.handle.handle-n,
+.handle.handle-s {
+    cursor: s-resize;
+    height: 4px;
+    left: 0;
+}
+.handle.handle-n {
+    top: 0;
+}
+.handle.handle-s {
+    bottom: 0;
+}
+
+.handle.handle-e,
+.handle.handle-w {
+    cursor: w-resize;
+    width: 4px;
+    top: 0;
+}
+.handle.handle-e {
+    right: 0;
+}
+.handle.handle-w {
+    left: 0;
+}
+
+.handle.handle-ne,
+.handle.handle-se,
+.handle.handle-sw,
+.handle.handle-nw {
+    width: 10px;
+    height: 10px;
+    z-index: 1;
+}
+.handle.handle-ne,
+.handle.handle-sw {
+    cursor: nesw-resize;
+}
+.handle.handle-nw,
+.handle.handle-se {
+    cursor: nwse-resize;
+}
+
+.handle.handle-nw {
+    top: 0;
+    left: 0;
+}
+.handle.handle-ne {
+    top: 0;
+    right: 0;
+}
+.handle.handle-se {
+    bottom: 0;
+    right: 0;
+}
+.handle.handle-sw {
+    bottom: 0;
+    left: 0;
+}
